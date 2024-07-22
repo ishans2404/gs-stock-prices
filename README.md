@@ -46,8 +46,13 @@ The historical data for Goldman Sachs (ticker symbol: GS) is fetched using the Y
 
 Visualize the historical stock data including closing prices and trading volumes using `plotly` and `matplotlib`. Visualizations include:
 - Line plots of closing prices over time
+  ![newplot (1)](https://github.com/user-attachments/assets/2ac542fa-bb6e-429b-9e4f-429f7decfdb0)
+  
 - Line plots of trading volumes over time
+  ![newplot](https://github.com/user-attachments/assets/bdd51c40-39fe-4df6-8744-71bddb20acd6)
+
 - Waterfall chart showing daily price differences
+  ![newplot (2)](https://github.com/user-attachments/assets/a96f7bc1-2acc-4a84-80d7-fe7d4c953451)
 
 ## Data Preprocessing
 
@@ -59,6 +64,7 @@ Prepare the data by:
 ## Model Building
 
 Build a sequential LSTM model using Keras with TensorFlow backend. The model architecture consists of multiple LSTM layers with dropout regularization to prevent overfitting. The model is compiled using the Adam optimizer and Mean Squared Error (MSE) loss function.
+![__results___33_0](https://github.com/user-attachments/assets/86a8a8af-f6f8-4148-b36e-113cc10ba277)
 
 ## Evaluation
 
@@ -68,10 +74,13 @@ Evaluate the model performance using metrics such as:
 - R-squared (R2) score
 
 Model training progress and validation metrics are visualized using `plotly` and `matplotlib`.
+![newplot (3)](https://github.com/user-attachments/assets/1c22e6b7-c22b-456a-b009-7415a38ec861)
 
 ## Results
 
 Visualize and analyze the predicted vs actual closing prices of Goldman Sachs stock using `plotly`. Discuss insights gained from the model predictions and compare them with actual data trends.
+![newplot (4)](https://github.com/user-attachments/assets/2a27ae18-fe93-4b79-b0e9-1b4095184532)
+
 
 ## Conclusion
 
