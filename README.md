@@ -1,6 +1,6 @@
 # Goldman Sachs Stock Price Time Series Analysis
 
-This repository contains the code and analysis for performing time series analysis on Goldman Sachs (GS) stock price data. The analysis includes data visualization, preprocessing, model building using LSTM neural networks, and evaluation metrics.
+This notebook contains the code and analysis for performing time series analysis on Goldman Sachs (GS) stock price data. The analysis includes data visualization, preprocessing, model building using LSTM neural networks, and evaluation metrics. [Original Kaggle notebook](https://www.kaggle.com/code/ishans24/goldmansachs-stock-time-series).
 
 ## Table of Contents
 
